@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.venv/
+venv/
+
+# Tooling
+.pytest_cache/
+.ruff_cache/
+.coverage
+coverage.xml
+.cache/
+
+# IDEs
+.idea/
+.vscode/
+.DS_Store
+
+# Secrets - never commit these
+.env
+.env.*
+!.env.example
+
+# Generated output
+reports/
+downloads/
+*_frames/
+image.tar
