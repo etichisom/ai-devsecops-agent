@@ -1,0 +1,25 @@
+{
+  "errors": [],
+  "results": [
+    {
+      "filename": "app/db.py",
+      "issue_confidence": "MEDIUM",
+      "issue_cwe": {"id": 89, "link": "https://cwe.mitre.org/data/definitions/89.html"},
+      "issue_severity": "MEDIUM",
+      "issue_text": "Possible SQL injection vector through string-based query construction.",
+      "line_number": 27,
+      "test_id": "B608",
+      "test_name": "hardcoded_sql_expressions"
+    },
+    {
+      "filename": "app/config.py",
+      "issue_confidence": "MEDIUM",
+      "issue_cwe": {"id": 259},
+      "issue_severity": "LOW",
+      "issue_text": "Possible hardcoded password: 'admin'",
+      "line_number": 5,
+      "test_id": "B105",
+      "test_name": "hardcoded_password_string"
+    }
+  ]
+}

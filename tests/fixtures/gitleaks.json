@@ -1,0 +1,10 @@
+[
+  {
+    "RuleID": "generic-api-key",
+    "Description": "Detected a Generic API Key",
+    "File": "config/settings.py",
+    "StartLine": 3,
+    "Secret": "REDACTED",
+    "Match": "api_key = REDACTED"
+  }
+]

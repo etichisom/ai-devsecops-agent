@@ -1,0 +1,28 @@
+{
+  "version": "1.95.0",
+  "results": [
+    {
+      "check_id": "python.lang.security.audit.subprocess-shell-true.subprocess-shell-true",
+      "path": "app/utils.py",
+      "start": {"line": 12, "col": 5},
+      "end": {"line": 12, "col": 40},
+      "extra": {
+        "message": "Found 'subprocess' function with 'shell=True'. This is dangerous.",
+        "severity": "ERROR",
+        "metadata": {"cwe": ["CWE-78: OS Command Injection"], "confidence": "MEDIUM"}
+      }
+    },
+    {
+      "check_id": "python.flask.security.audit.debug-enabled.debug-enabled",
+      "path": "app/server.py",
+      "start": {"line": 40, "col": 1},
+      "end": {"line": 40, "col": 30},
+      "extra": {
+        "message": "Detected Flask app with debug=True.",
+        "severity": "WARNING",
+        "metadata": {"cwe": "CWE-489: Active Debug Code"}
+      }
+    }
+  ],
+  "errors": []
+}

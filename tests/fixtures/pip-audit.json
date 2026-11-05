@@ -1,0 +1,10 @@
+{
+  "dependencies": [
+    {"name": "requests", "version": "2.25.0", "vulns": [
+      {"id": "GHSA-j8r2-6x86-q33q", "fix_versions": ["2.31.0"], "aliases": ["CVE-2023-32681"],
+       "description": "Requests leaks Proxy-Authorization headers on redirect."}
+    ]},
+    {"name": "rich", "version": "13.7.0", "vulns": []}
+  ],
+  "fixes": []
+}
